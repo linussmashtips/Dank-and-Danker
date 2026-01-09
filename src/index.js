@@ -1,3 +1,13 @@
+const http = require('http');
+
+// This creates a simple server to satisfy Render's port requirement
+http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end('Dank and Danker Bot is Online');
+}).listen(process.env.PORT || 10000, '0.0.0.0', () => {
+  console.log(`Keep-alive server listening on port ${process.env.PORT || 10000}`);
+});
+
 const tmi = require('tmi.js');
 const cron = require('node-cron');
 const models = require('./db/models');
