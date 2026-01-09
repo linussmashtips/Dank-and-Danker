@@ -4,7 +4,7 @@ The "Extraction-Disgust" RPG for your Twitch chat. Built with Node.js, PostgreSQ
 
 ## 🎮 Game Overview
 
-Dank and Darker is a Twitch chat-based RPG where viewers can:
+Dank and Danker is a Twitch chat-based RPG where viewers can:
 - Join timed "Gutter" cycles every 30 minutes
 - Fight each other for Scum (gold) using `!cast @target`
 - Search for portals and fight disgusting mobs to escape
