@@ -1,4 +1,4 @@
-# 🏰 Dank and Darker
+# 🏰 Dank and Danker
 
 The "Extraction-Disgust" RPG for your Twitch chat. Built with Node.js, PostgreSQL, and StreamElements integration.
 
